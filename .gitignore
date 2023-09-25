@@ -1,0 +1,14 @@
+# eclipse-related files
+.classpath
+.project
+.settings
+
+# IntelliJ-related files
+.idea
+
+# maven output
+target/
+test-output
+
+# dependencies pulled locally
+module/MOD-INF/lib/
