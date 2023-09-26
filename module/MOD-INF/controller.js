@@ -7,7 +7,7 @@ function init() {
   Packages.org.openrefine.expr.MetaParser.registerLanguageParser(
     "gython",
     "Python 3 (Truffle)",
-    Packages.io.github.wetneb.gython.GythonEvaluable.createParser(),
+    Packages.io.github.wetneb.refinegython.GythonEvaluable.createParser(),
     "return value"
   );
 }

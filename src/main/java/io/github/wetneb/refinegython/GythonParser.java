@@ -12,7 +12,7 @@ import org.openrefine.expr.ParsingException;
  */
 public class GythonParser implements LanguageSpecificParser {
     
-    Context polyglotContext = null;
+    static Context polyglotContext = null;
 
     private Context getContext() {
         if (polyglotContext == null) {
